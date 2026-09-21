@@ -152,21 +152,39 @@ Specific infrastructure, credentials, database structures, and security configur
 * Centralizes customer and supplier records
 * Supports faster management decisions
 
-## Screenshots
+## Interface Screenshots
 
-Sanitized screenshots of the following areas may be included:
+The following screenshots use sanitized demonstration data. No client, customer, supplier, financial, or authentication information is included.
 
-* Dashboard
-* Point of Sale
-* Product management
-* Inventory
-* Sales history
-* Purchase management
-* Customer and supplier management
-* Reports
+### Dashboard
 
-All personal, financial, and confidential information is removed or obscured before publication.
+![POS and inventory dashboard](screenshots/01-dashboard-demo.png)
 
+The dashboard provides sales summaries, profit visibility, inventory valuation, low-stock monitoring, and product-performance information.
+
+### Point of Sale
+
+![Point of Sale interface](screenshots/02-point-of-sale-demo.png)
+
+The POS interface supports product and SKU search, cart management, customer selection, cash and credit payments, discounts, backdated sales controls, and receipt generation.
+
+### Purchase Management
+
+![Purchase management interface](screenshots/03-purchase-management-demo.png)
+
+The purchase workflow handles suppliers, invoice references, product selection, quantities, costs, sale prices, credit purchases, and stock updates.
+
+### Reporting Modules
+
+![Reporting modules](screenshots/04-module-reports.png)
+
+Reporting modules cover products, customers, vendors, sales, purchases, payments, inventory, returns, quotations, accounts, and expenses.
+
+### Role-Based Permissions
+
+![Role-based permissions](screenshots/05-role-permissions.png)
+
+Administrators can control view, create, edit, delete, and export permissions independently for each system module.
 ## Live Deployment
 
 The application is deployed in a private production environment.
